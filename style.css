@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+}
+
+h1{
+    font-size: 2em;
+    color: #303459;
+}
+
+p{
+    font-weight: 600;
+}
+
+body{
+    background-color: #b6a5c4;
+    font-family: 'Raleway', sans-serif;
+    color: #3c4068;
+    font-size: 1.5em;
+}
+
+a{
+    color: #c93c88;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #3c4068;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+
+nav a{
+    margin-left: 20px;
+}
+
+.logo{
+   width: 100px;
+   height: 100px;
+   object-fit: fill;
+}
+
+nav .logo{
+    margin-right: 20px;
+}
+
+.restaurant-photo {
+    margin-right: 100px;
+    height: 60%;
+    width: 60%;
+}
+
+.acceuil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+    justify-content: flex-start;
+    margin-left: 200px;
+    padding-bottom: 50px;
+}
+
+.text1{
+    max-width: 600px;
+}
+
+.text1 p{
+    margin-bottom: 20px;
+}
+
+.nourriture-photos {
+    background-color:#eff7a6;
+    padding: 80px;
+    text-align: center;
+}
+
+.nourriture-photos h1 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.nourriture-photos div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.membre1{
+    color: #242424;
+    border-radius: 70px;
+    padding: 10px 20px;
+    background: #d6b360;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.membre1:hover{
+    text-decoration: none;
+    background: #b59750;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boite{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    clear: both;
+    border-top: 1px solid #3c4068;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.Noms{
+    order: 1;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact h1{
+    margin-bottom: 10px;
+}
+
+.liste_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.liste_contact p {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.liste_contact li{
+    font-weight: 700;
+}
+
+.table_contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.table_contact p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+table {
+    width: 55%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 3px solid #242424;
+    padding: 10px; 
+    text-align: left;
+}
+
+td{
+    font-weight: 600;
+}
+
+.boite2_contact{
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.boite_contact {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.bouton-envoyer {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.espace{
+    margin: 20px 20px;
+}
+
+.centre{
+    margin-top: 20px;
+}
+
+a:hover{
+    color:#7a1874;
+}
